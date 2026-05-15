@@ -5,7 +5,7 @@ import HomeScreen from "../screens/HomeScreen";
 import ScanScreen from "../screens/ScanScreen";
 import ProductDetailScreen from "../screens/ProductDetailScreen";
 import ProductListScreen from "../screens/ProductListScreen";
-
+import AddProductScreen from "../screens/AddProductScreen";
 const Stack = createNativeStackNavigator();
 
 export default function AppNavigator() {
@@ -19,7 +19,7 @@ export default function AppNavigator() {
       <Stack.Screen name="Scan" component={ScanScreen} options={{ title: "Escanear QR" }} />
       <Stack.Screen name="Detalle" component={ProductDetailScreen} options={{ title: "Detalle de Producto" }} />
       <Stack.Screen name="Listado" component={ProductListScreen} options={{ title: "Inventario Disponible" }} />
-       <Stack.Screen name="Agregar" component={ProductListScreen} options={{ title: "Añadir producto" }} />
+      <Stack.Screen name="Agregar" component={AddProductScreen} options={{ title: "Añadir producto" }} />
     </Stack.Navigator>
   );
 }
