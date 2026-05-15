@@ -1,0 +1,5 @@
+node_modules/
+.expo/
+app/node_modules/
+inventario-api/node_modules/
+git add .
