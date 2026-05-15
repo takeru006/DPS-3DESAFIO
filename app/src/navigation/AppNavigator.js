@@ -19,6 +19,7 @@ export default function AppNavigator() {
       <Stack.Screen name="Scan" component={ScanScreen} options={{ title: "Escanear QR" }} />
       <Stack.Screen name="Detalle" component={ProductDetailScreen} options={{ title: "Detalle de Producto" }} />
       <Stack.Screen name="Listado" component={ProductListScreen} options={{ title: "Inventario Disponible" }} />
+       <Stack.Screen name="Agregar" component={ProductListScreen} options={{ title: "Añadir producto" }} />
     </Stack.Navigator>
   );
 }
